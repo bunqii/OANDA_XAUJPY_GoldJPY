@@ -1,0 +1,65 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_JPY",
+  "granularity": "D",
+  "chunk_start": "2000-01-01",
+  "chunk_end": "2009-12-31",
+  "parquet_file": "OANDA_XAUJPY_GoldJPY_D_2000-01-01_to_2009-12-31.parquet",
+  "data_file": "OANDA_XAUJPY_GoldJPY_D_2000-01-01_to_2009-12-31.parquet",
+  "row_count": 1272,
+  "first_candle": {
+    "time": 1142719200,
+    "Time": "2006-03-18T22:00:00.000000000Z",
+    "open": 64217.0,
+    "high": 64262.0,
+    "low": 64175.0,
+    "close": 64259.0,
+    "volume": 229
+  },
+  "last_candle": {
+    "time": 1262296800,
+    "Time": "2009-12-31T22:00:00.000000000Z",
+    "open": 102066.0,
+    "high": 102114.0,
+    "low": 102066.0,
+    "close": 102108.0,
+    "volume": 47
+  },
+  "csv_file": "OANDA_XAUJPY_GoldJPY_D_2000-01-01_to_2009-12-31.parquet",
+  "csv_row_count": 1272,
+  "csv_first_candle": {
+    "time": 1142719200,
+    "Time": "2006-03-18T22:00:00.000000000Z",
+    "open": 64217.0,
+    "high": 64262.0,
+    "low": 64175.0,
+    "close": 64259.0,
+    "volume": 229
+  },
+  "csv_last_candle": {
+    "time": 1262296800,
+    "Time": "2009-12-31T22:00:00.000000000Z",
+    "open": 102066.0,
+    "high": 102114.0,
+    "low": 102066.0,
+    "close": 102108.0,
+    "volume": 47
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T23:45:24.000000000Z",
+  "generated_at": "2026-10-15T23:45:24.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 1,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2006-03-18T22:00:00Z",
+        "to": "2019-11-25T22:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
