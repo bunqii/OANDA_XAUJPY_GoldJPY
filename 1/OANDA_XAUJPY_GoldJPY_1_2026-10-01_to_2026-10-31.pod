@@ -1,0 +1,89 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_JPY",
+  "granularity": "M1",
+  "chunk_start": "2026-10-01",
+  "chunk_end": "2026-10-31",
+  "parquet_file": "OANDA_XAUJPY_GoldJPY_1_2026-10-01_to_2026-10-31.parquet",
+  "data_file": "OANDA_XAUJPY_GoldJPY_1_2026-10-01_to_2026-10-31.parquet",
+  "row_count": 15119,
+  "first_candle": {
+    "time": 1790812800,
+    "Time": "2026-10-01T00:00:00.000000000Z",
+    "open": 654852.0,
+    "high": 654958.0,
+    "low": 654753.0,
+    "close": 654766.0,
+    "volume": 521
+  },
+  "last_candle": {
+    "time": 1792107720,
+    "Time": "2026-10-15T23:42:00.000000000Z",
+    "open": 657485.0,
+    "high": 657532.0,
+    "low": 657415.0,
+    "close": 657426.0,
+    "volume": 185
+  },
+  "csv_file": "OANDA_XAUJPY_GoldJPY_1_2026-10-01_to_2026-10-31.parquet",
+  "csv_row_count": 15119,
+  "csv_first_candle": {
+    "time": 1790812800,
+    "Time": "2026-10-01T00:00:00.000000000Z",
+    "open": 654852.0,
+    "high": 654958.0,
+    "low": 654753.0,
+    "close": 654766.0,
+    "volume": 521
+  },
+  "csv_last_candle": {
+    "time": 1792107720,
+    "Time": "2026-10-15T23:42:00.000000000Z",
+    "open": 657485.0,
+    "high": 657532.0,
+    "low": 657415.0,
+    "close": 657426.0,
+    "volume": 185
+  },
+  "status": "VERIFIED_PARTIAL",
+  "verified_at": "2026-10-15T23:44:46.000000000Z",
+  "generated_at": "2026-10-15T23:44:46.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2165,
+    "chunk_api_blocks": 5,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2026-09-29T20:49:00Z",
+        "to": "2026-10-03T08:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-03T08:09:00Z",
+        "to": "2026-10-06T19:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-06T19:29:00Z",
+        "to": "2026-10-10T06:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-10T06:49:00Z",
+        "to": "2026-10-13T18:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2026-10-13T18:09:00Z",
+        "to": "2026-10-15T23:43:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}

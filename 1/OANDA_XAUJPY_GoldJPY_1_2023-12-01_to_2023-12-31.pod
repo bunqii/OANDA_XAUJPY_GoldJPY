@@ -1,0 +1,119 @@
+{
+  "pod_version": "4.0",
+  "instrument": "XAU_JPY",
+  "granularity": "M1",
+  "chunk_start": "2023-12-01",
+  "chunk_end": "2023-12-31",
+  "parquet_file": "OANDA_XAUJPY_GoldJPY_1_2023-12-01_to_2023-12-31.parquet",
+  "data_file": "OANDA_XAUJPY_GoldJPY_1_2023-12-01_to_2023-12-31.parquet",
+  "row_count": 27314,
+  "first_candle": {
+    "time": 1701388800,
+    "Time": "2023-12-01T00:00:00.000000000Z",
+    "open": 301942.0,
+    "high": 301987.0,
+    "low": 301920.0,
+    "close": 301975.0,
+    "volume": 151
+  },
+  "last_candle": {
+    "time": 1703887080,
+    "Time": "2023-12-29T21:58:00.000000000Z",
+    "open": 290958.0,
+    "high": 290958.0,
+    "low": 290958.0,
+    "close": 290958.0,
+    "volume": 1
+  },
+  "csv_file": "OANDA_XAUJPY_GoldJPY_1_2023-12-01_to_2023-12-31.parquet",
+  "csv_row_count": 27314,
+  "csv_first_candle": {
+    "time": 1701388800,
+    "Time": "2023-12-01T00:00:00.000000000Z",
+    "open": 301942.0,
+    "high": 301987.0,
+    "low": 301920.0,
+    "close": 301975.0,
+    "volume": 151
+  },
+  "csv_last_candle": {
+    "time": 1703887080,
+    "Time": "2023-12-29T21:58:00.000000000Z",
+    "open": 290958.0,
+    "high": 290958.0,
+    "low": 290958.0,
+    "close": 290958.0,
+    "volume": 1
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T23:44:37.000000000Z",
+  "generated_at": "2026-10-15T23:44:37.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2165,
+    "chunk_api_blocks": 10,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2023-11-30T03:29:00Z",
+        "to": "2023-12-03T14:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-03T14:49:00Z",
+        "to": "2023-12-07T02:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-07T02:09:00Z",
+        "to": "2023-12-10T13:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-10T13:29:00Z",
+        "to": "2023-12-14T00:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-14T00:49:00Z",
+        "to": "2023-12-17T12:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-17T12:09:00Z",
+        "to": "2023-12-20T23:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-20T23:29:00Z",
+        "to": "2023-12-24T10:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-24T10:49:00Z",
+        "to": "2023-12-27T22:09:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-27T22:09:00Z",
+        "to": "2023-12-31T09:29:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2023-12-31T09:29:00Z",
+        "to": "2024-01-03T20:49:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
